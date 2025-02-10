@@ -8,8 +8,29 @@ body {
     margin: 0;
 }
 
+.auth-and-image-container{
+    background-color: #077d56;
+    height: 85%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* .image-container{
+    background-color: #f44336;
+    height: 100vh;
+    width: 50%;
+    
+} */
+
+
+
+
 .auth-container {
     background-color: white;
+    height: 85%;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
