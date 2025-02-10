@@ -2,8 +2,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebas
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, query, where } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore.js";
 
-// Firebase configuration (use your own config values)
-
+// Firebase configuration 
+const firebaseConfig = {
+    apiKey: "AIzaSyCsSDrxr5HihttFWT6AsqieOm50wuuINr0",
+    authDomain: "egr302-study-buddy.firebaseapp.com",
+    projectId: "egr302-study-buddy",
+    storageBucket: "egr302-study-buddy.firebasestorage.app",
+    messagingSenderId: "1086319398149",
+    appId: "1:1086319398149:web:cc708ace55be8b4f567b6c"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -83,7 +90,7 @@ loginFormElement.addEventListener('submit', async (e) => {
         console.log("User logged in:", userCredential.user);
 
         // Redirect to dashboard or another page
-        window.location.href = 'dashboard.html';  // Replace with your redirect page
+        window.location.href = 'dashboard.html'; 
     } catch (error) {
         console.error("Error logging in:", error.message);
         alert('Failed to log in: ' + error.message);
