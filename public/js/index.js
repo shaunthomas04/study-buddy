@@ -90,7 +90,7 @@ loginFormElement.addEventListener('submit', async (e) => {
         console.log("User logged in:", userCredential.user);
 
         // Redirect to dashboard or another page
-        window.location.href = 'dashboard.html'; 
+        window.location.href = 'homepage.html'; 
     } catch (error) {
         console.error("Error logging in:", error.message);
         alert('Failed to log in: ' + error.message);
