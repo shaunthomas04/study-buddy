@@ -7,7 +7,7 @@ const firebaseConfig = {
     apiKey: "AIzaSyCsSDrxr5HihttFWT6AsqieOm50wuuINr0",
     authDomain: "egr302-study-buddy.firebaseapp.com",
     projectId: "egr302-study-buddy",
-    storageBucket: "egr302-study-buddy.firebasestorage.app",
+    // storageBucket: "egr302-study-buddy.firebasestorage.app", commenting out storage until it is needed
     messagingSenderId: "1086319398149",
     appId: "1:1086319398149:web:cc708ace55be8b4f567b6c"
   };
